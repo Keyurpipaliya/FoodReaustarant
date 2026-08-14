@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <h1><center>Registration Page</center></h1>
+    <p><marquee behavior="alternate" direction="left">Welcome to our registration page! 
+    </marquee><center>Please fill out the form below to register.</center></p>
+</head>
+<body>
+    <center>
+        <h2 style="color: blue;">Registration Form </h2>
+        <img src="image1.png" alt="Food Image" width="500" height="300">
+        <form action="FoodMenuWebsite.html" method="get">
+            <table border="5px" cellpadding="10" cellspacing="5">
+                <tbody>
+                <tr>
+                    <td><label for="Firstname">Firstname:</label></td>
+                    <td><input type="text" id="Firstname" name="Firstname" placeholder="Enter is your Firstname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Lastname">Lastname:</label></td>
+                    <td><input type="text" id="Lastname" name="Lastname" placeholder="Enter is your Lastname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Phone:</label></td>
+                    <td><input type="text" id="Phone" name="Phone" placeholder="Enter your Phone number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Address:</label></td>
+                    <td><input type="text" id="Address" name="Address" placeholder="Enter your Address" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter your Email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password:</label></td>
+                    <td><input type="password" id="Password" name="Password" placeholder="Enter your Password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="ConfirmPassword">Confirm Password:</label></td>
+                    <td><input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm your Password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="DateofBirth">Date of Birth:</label></td>
+                    <td><input type="date" id="DateofBirth" name="DateofBirth" placeholder="Enter your Date of Birth" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender:</label></td>
+                    <td>
+                        <select name="Gender" id="Gender" placeholder="Select Gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Reset">
+                        <a href="LoginPage.html">Already have an account? Login</a>
+                    </td>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+</body>   
+<style>
+    * {
+        background-color: #f9f9f9;
+        border-radius: 1px;
+    }
+</style>
+</html>
