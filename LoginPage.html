@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <h1><center>Login Page</center></h1>
+    <p><marquee behavior="scroll" direction="left"><center>Welcome to our login page! Please enter your credentials to access your account.</center></marquee></p>
+</head>
+<body>
+    <center>
+        <h2 style="color: blue;">Login form</h2>
+        <img src="image2.png" alt="Food Image" width="200" height="100">
+        <form action="FoodMenuWebsite.html" method="get">
+            <table border="5px" cellpadding="10" cellspacing="5">
+                <tbody>
+                <tr>
+                    <td><label for="Username">Username:</label></td>
+                    <td><input type="text" id="Username" name="Username" placeholder="Enter your Username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password:</label></td>
+                    <td><input type="password" id="Password" name="Password" placeholder="Enter your Password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="ConfirmPassword">Confirm Password:</label></td>
+                    <td><input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm your Password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit"  value="Login">
+                    <a href="Registrationpage.html">Register</a>
+                    <a href="LoginPage.html">Forgot Password?</a>
+                </td>
+                </tr>
+            </tbody>
+        </form>
+    </center>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</body>
+</html>
